@@ -1,8 +1,8 @@
 $(call inherit-product, device/htc/m7vzw/full_m7vzw.mk)
 
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/common/config/nfc_enhanced.mk)
 
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/common/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=HTCOneVZW \
@@ -12,5 +12,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
-PRODUCT_NAME := cm_m7vzw
+PRODUCT_NAME := ds_m7vzw
 PRODUCT_DEVICE := m7vzw
